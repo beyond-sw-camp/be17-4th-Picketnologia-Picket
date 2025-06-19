@@ -1,7 +1,9 @@
 
-
 <h1 align="center">🎟️ Picket</h1>
-![Picket 로고](.be17-1st-Picketnologia-Picket/images/logo.png)
+
+<p align="center">
+  <img src="./images/logo.png" width="200" alt="Picket 로고" />
+</p>
 
 <h3 align="center">2팀 - Picketnologia</h3>
 
