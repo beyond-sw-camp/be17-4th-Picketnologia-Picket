@@ -185,7 +185,7 @@
 
 로그인 성공
 <br />
-[로그인 성공](./images/login.png)
+[로그인 성공](./images/login_success.png)
 
 로그인 실패
 <br />
