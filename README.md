@@ -248,5 +248,7 @@ place 등록
 ![place 등록](./images/place_add.png)
 
 <br />
-
+ticket price 등록
+<br /><br />
+![ticket price 등록](./images/image11.png)
 </details>
