@@ -198,7 +198,23 @@
 </details>
 <br />
 
+<br />
 
+</details>
+
+<details>
+<summary>사용자</summary>
+<br />
+
+결제 기능
+<br /><br />
+
+![카드 결제기능](./images/card_info_add.png)
+
+<br />
+
+</details>
+<br />
 
 
 
