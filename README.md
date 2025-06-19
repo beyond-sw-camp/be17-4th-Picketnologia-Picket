@@ -93,7 +93,7 @@
 [ERD 다이어그램](./docs/requirement-spec.md)
 
 <p align="center">
-  <img src="images/Picket_ERD.png" width="400" alt="ERDDiagram" />
+  <img src="images/Picket_ERD.png" width="1200" alt="ERDDiagram" />
   
 <br /><br />
 
