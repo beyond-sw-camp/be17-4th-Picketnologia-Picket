@@ -196,16 +196,9 @@
 ![로그인 실패](./images/login_fail.png)
 
 </details>
-
-
 <br />
 
-카드정보 등록
-<br /><br />
 
-![카드정보 등록](./images/card_info_add.png)
 
-</details>
 
-<br />
 
