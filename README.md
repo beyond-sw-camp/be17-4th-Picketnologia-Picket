@@ -197,12 +197,7 @@
 
 </details>
 
-<br />
 
-</details>
-
-<details>
-<summary>결제/환불 기능</summary>
 <br />
 
 카드정보 등록
@@ -210,18 +205,7 @@
 
 ![카드정보 등록](./images/card_info_add.png)
 
-<br />
-
 </details>
 
 <br />
-
-리뷰 및 문의 기능
-<br /><br />
-
-![리뷰 및 문의 기능](./images/card_info_add.png)
-
-<br />
-
-</details>
 
