@@ -212,6 +212,7 @@
 <br />
 
 </details>
+
 <br />
 
 </details>
@@ -235,4 +236,17 @@ QnA 등록
 </details>
 <br />
 
+</details>
 
+<details>
+<summary>상품 등록</summary>
+<br />
+
+place 등록
+<br /><br />
+
+![place 등록](./images/place_add.png)
+
+<br />
+
+</details>
