@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/ac95c109-df8d-4012-b271-3b515705633b)<br /><br />
-
 <h1 align="center">🎟️ Picket</h1>
 
 <p align="center">
