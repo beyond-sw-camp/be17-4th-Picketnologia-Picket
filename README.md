@@ -2,7 +2,7 @@
 
 <h1 align="center">🎟️ Picket</h1>
 ![Picket 로고](./assets/picket-logo.png)
-<hr>
+
 
 ## 👨‍💻 팀원 구성
 <table align="center">
