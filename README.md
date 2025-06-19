@@ -85,7 +85,7 @@
 <br /><br />
 
 ## 🎤 요구사항 정의서
-[요구사항 정의서](./doc/요구사항_정의서_최종_Picketnologia.xlsx)
+[요구사항 정의서](./doc/요구사항_정의서_최종_Picketnologia.pdf)
 
 <br /><br />
 
