@@ -1,6 +1,6 @@
 <br /><br />
 
-<h1 align="center">🎟️ Picket</h1>
+<h3 align="center">🎟️ Picket</h3>
 
 
 <p align="center">
