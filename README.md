@@ -3,8 +3,7 @@
 <h1 align="center">🎟️ Picket</h1>
 <p align="center">
   <img src="images/logo.png" width="400" alt="Picket 로고" />
-</p>
-<h2 align="center">2팀 - Picketnologia</h2>
+<h1 align="center">2팀 - Picketnologia</h1>
 
 <br /><br />
   
