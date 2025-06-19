@@ -185,11 +185,13 @@
 
 로그인 성공
 <br />
-[로그인 성공](./images/login_success.png)
+
+![로그인 성공](./images/login_success.png)
 
 로그인 실패
 <br />
-[로그인 실패](./images/login_fail.png)
+
+![로그인 실패](./images/login_fail.png)
 
 </details>
 
