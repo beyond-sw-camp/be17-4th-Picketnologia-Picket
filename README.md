@@ -169,7 +169,7 @@
 
 ✅ **DDL**  
 
-[DDL SQL 파일](./ddl.sql)
+[DDL SQL 파일](./sql/picket_erd_schema.sql)
 
 ✅ **DML**  
 
