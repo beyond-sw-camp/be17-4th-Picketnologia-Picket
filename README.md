@@ -1,6 +1,6 @@
 <br /><br />
 
-<h1 align="center" style="font-size: 80px;">🎟️ Picket</h1>
+##### 🎟️ Picket
 
 <p align="center">
   <img src="images/logo.png" width="400" alt="Picket 로고" />
