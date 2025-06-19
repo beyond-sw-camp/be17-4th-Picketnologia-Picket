@@ -164,7 +164,6 @@
 </details>
 
 ## 🦉 SQL  
----
 
 ✅ **DDL**  
 [DDL SQL 파일](#)  
