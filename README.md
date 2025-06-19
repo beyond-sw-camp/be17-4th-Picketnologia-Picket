@@ -1,8 +1,7 @@
-<h3 align="center">🎟️  Picketnologia</h3>
+
+<h1 align="center">🍽️ Eatzzy</h1>
 
 <hr/>
-
-<br /><br />
 
 <p align="center">
   <img src="images/logo.png" width="400" alt="Picket 로고" />
