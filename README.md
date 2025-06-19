@@ -208,7 +208,7 @@
 카드정보 등록
 <br /><br />
 
-![카드정보 등록](./images/login_success.png)
+![카드정보 등록](./images/card_info_add.png)
 
 <br />
 
