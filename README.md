@@ -215,3 +215,13 @@
 </details>
 
 <br />
+
+리뷰 및 문의 기능
+<br /><br />
+
+![리뷰 및 문의 기능](./images/card_info_add.png)
+
+<br />
+
+</details>
+
