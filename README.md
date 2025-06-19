@@ -250,5 +250,5 @@ place 등록
 <br />
 ticket price 등록
 <br /><br />
-![ticket price 등록](./images/image11.png)
+![ticket price 등록](images/image11.png)
 </details>
