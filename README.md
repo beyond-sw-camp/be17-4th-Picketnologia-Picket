@@ -1,6 +1,7 @@
 <br /><br />
 
-<h1 align="center">🎟️ Picket</h1>
+<h1 align="center">🎟️ <span style="font-size:60px">Picket</span></h1>
+
 <p align="center">
   <img src="images/logo.png" width="400" alt="Picket 로고" />
 <h3 align="center">2팀 - Picketnologia</h3>
