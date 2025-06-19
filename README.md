@@ -182,7 +182,8 @@
 <details>
 <summary>사용자</summary>
 <br />
-  
+
+내용작성
 
 </details>
 
