@@ -90,3 +90,10 @@
 ## 🕺 ERD
 [ERD 다이어그램](./docs/requirement-spec.md)
 
+<br /><br />
+
+## 💃 시스템 아키텍처
+
+![시스템 아키텍처](./assets/system-architecture.png)
+
+<br /><br />
