@@ -3,6 +3,7 @@
 <h1 align="center">🎟️ Picket</h1>
 ![Picket 로고](./assets/picket-logo.png)
 
+# 2팀 - Picketnologia
 
 ## 👨‍💻 팀원 구성
 <table align="center">
