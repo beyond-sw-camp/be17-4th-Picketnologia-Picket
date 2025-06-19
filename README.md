@@ -5,7 +5,7 @@
 <br /><br />
 
 <p align="center">
-  <img src="images/logo.png" width="350" alt="Picket 로고" />
+  <img src="images/logo.png" width="400" alt="Picket 로고" />
 </p>
 
 
