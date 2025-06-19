@@ -1,8 +1,9 @@
 
 
 <h3 align="center">2팀 - Picketnologia</h3>
+</p>
 <p align="center">
-  <img src="images/logo.png" width="500" alt="Picket 로고" />
+  <img src="images/logo.png" width="350" alt="Picket 로고" />
 </p>
 
 
