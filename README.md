@@ -80,7 +80,7 @@
 <br /><br />
 
 ## 🎶 프로젝트 기획안
-[프로젝트 기획안](./docs/project-plan.md)
+[프로젝트 기획안](./doc/프로젝트_기획안_최종_Picketnologia.pdf)
 
 <br /><br />
 
