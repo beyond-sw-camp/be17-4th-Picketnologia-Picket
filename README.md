@@ -212,11 +212,6 @@
 
 <br />
 
-로그인 실패
-<br /><br />
-
-![로그인 실패](./images/login_fail.png)
-
 </details>
 
 <br />
