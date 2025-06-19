@@ -101,7 +101,7 @@
 
 <br /><br />
 
-## 🧻 재해 복구 (DR)
+## 📽️ 재해 복구 (DR)
 
 <details>
 <summary>클러스터 방식을 사용한 이유</summary>
