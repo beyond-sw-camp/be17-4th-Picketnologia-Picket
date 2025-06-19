@@ -99,7 +99,7 @@
 
 ## 💃 시스템 아키텍처
 
-![시스템 아키텍처](./assets/system-architecture.png)
+![시스템 아키텍처](./assets/Architecture.png)
 
 <br /><br />
 
