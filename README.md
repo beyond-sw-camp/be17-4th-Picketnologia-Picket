@@ -183,7 +183,13 @@
 <summary>사용자</summary>
 <br />
 
-내용작성
+로그인 성공
+<br />
+[로그인 성공](./images/login.png)
+
+로그인 실패
+<br />
+[로그인 실패](./images/login_fail.png)
 
 </details>
 
