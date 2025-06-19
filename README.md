@@ -1,6 +1,6 @@
 <br /><br />
 
-<h1 align="center">🎟️ <span style="font-size:60px">Picket</span></h1>
+<h1 align="center">🎟️ <span style="font-size:80px">Picket</span></h1>
 
 <p align="center">
   <img src="images/logo.png" width="400" alt="Picket 로고" />
