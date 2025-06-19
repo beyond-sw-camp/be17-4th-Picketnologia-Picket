@@ -48,3 +48,22 @@
 사용자는 관심사 기반 알림, 안정적인 대기열 예매, QR 인증 기반 암표 방지, 자동 결제/알림 기반의 취소표 대기 시스템 등을 통해 더 편리하고 공정한 예매 환경을 경험할 수 있습니다.
  
  Picket은 단순한 예매를 넘어, 누구나 공연을 열고 참여할 수 있는 열린 플랫폼을 지향합니다.
+
+## 🍔 기술 스택  
+<hr>
+
+<!-- 1행 -->
+![VMware](https://img.shields.io/badge/VMWARE-575757?style=for-the-badge&logo=vmware&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/UBUNTU-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+<!-- 2행 -->
+![MariaDB](https://img.shields.io/badge/MARIADB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+
+<!-- 3행 -->
+![Prometheus](https://img.shields.io/badge/PROMETHEUS-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/GRAFANA-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+<!-- 4행 -->
+![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)
+![Discord](https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white)
