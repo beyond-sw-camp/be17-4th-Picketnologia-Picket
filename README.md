@@ -74,3 +74,13 @@
 ![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Discord](https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+
+<br /><br />
+
+## 🌭 프로젝트 기획안
+[프로젝트 기획안](./docs/project-plan.md)
+
+---
+
+## 🍰 요구사항 정의서
+[요구사항 정의서](./docs/requirement-spec.md)
