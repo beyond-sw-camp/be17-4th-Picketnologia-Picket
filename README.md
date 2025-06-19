@@ -1,6 +1,6 @@
+<h3 align="center">🎟️  Picketnologia</h3>
 
-
-<h3 align="center">2팀 - Picketnologia</h3>
+<hr/>
 
 <br /><br />
 
