@@ -5,7 +5,8 @@
 
 <h3 align="center">2팀 - Picketnologia</h3>
 
-<br /n>
+  <br /n>
+  
 ## 👨‍💻 팀원 구성
 <table align="center">
   <tr>
