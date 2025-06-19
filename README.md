@@ -5,7 +5,7 @@
 
 <h3 align="center">2팀 - Picketnologia</h3>
 
-<br />
+<br /><br />
   
 ## 👨‍💻 팀원 구성
 <table align="center">
@@ -38,7 +38,7 @@
   </tr>
 </table>
 
-<br />
+<br /><br />
 
 ## 🎫 프로젝트 소개
 
@@ -55,7 +55,7 @@
  
 <!-- ← 여기 빈 줄 하나 추가 -->
 
-<br />
+<br /><br />
 
 ## 👩‍🎤 기술 스택  
 
