@@ -1,5 +1,8 @@
+<br /><br />
 
-<h1 align="center">🍽️ Eatzzy</h1>
+<h1 align="center">🎟️ Picket</h1>
+
+<br /><br />
 
 <p align="center">
   <img src="images/logo.png" width="400" alt="Picket 로고" />
