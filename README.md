@@ -84,3 +84,9 @@
 
 ## 🎤 요구사항 정의서
 [요구사항 정의서](./docs/requirement-spec.md)
+
+<br /><br />
+
+## 🕺 ERD
+[ERD 다이어그](./docs/requirement-spec.md)
+
