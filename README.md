@@ -198,3 +198,25 @@
 </details>
 
 <br />
+
+</details>
+
+<details>
+<summary>결제/환불 기능</summary>
+<br />
+
+카드정보 등록
+<br /><br />
+
+![카드정보 등록](./images/login_success.png)
+
+<br />
+
+로그인 실패
+<br /><br />
+
+![로그인 실패](./images/login_fail.png)
+
+</details>
+
+<br />
