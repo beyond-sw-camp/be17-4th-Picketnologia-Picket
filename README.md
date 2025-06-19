@@ -4,8 +4,6 @@
 <p align="center">
   <img src="images/logo.png" width="400" alt="Picket 로고" />
 
-<h1 align="center">2팀 - Picketnologia
-
 <br /><br />
   
 ## 👨‍💻 팀원 구성
