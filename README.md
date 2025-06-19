@@ -88,5 +88,5 @@
 <br /><br />
 
 ## 🕺 ERD
-[ERD 다이어그](./docs/requirement-spec.md)
+[ERD 다이어그램](./docs/requirement-spec.md)
 
