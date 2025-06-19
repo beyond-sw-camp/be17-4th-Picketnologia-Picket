@@ -90,7 +90,8 @@
 
 ## 🕺 ERD
 [ERD 다이어그램](./docs/requirement-spec.md)
-
+<p align="center">
+  <img src="images/Picket_ERD.png" width="400" alt="Picket 로고" />
 <br /><br />
 
 ## 💃 시스템 아키텍처
