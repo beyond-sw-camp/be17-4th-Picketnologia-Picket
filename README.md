@@ -97,3 +97,19 @@
 ![시스템 아키텍처](./assets/system-architecture.png)
 
 <br /><br />
+
+## 🧻 재해 복구 (DR)
+
+<details>
+<summary>클러스터 방식을 사용한 이유</summary>
+
+내용을 여기에 작성하세요.
+
+</details>
+
+<details>
+<summary>장애 복구 시나리오</summary>
+
+시나리오 내용을 여기에 작성하세요.
+
+</details>
