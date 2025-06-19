@@ -1,1 +1,1 @@
-<h1 align="center">🎟️ Picket</h2>
+<h1 align="center">🎟️ Picket</h4>
