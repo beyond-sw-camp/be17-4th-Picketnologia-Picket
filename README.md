@@ -10,30 +10,25 @@
 ## 👨‍💻 팀원 구성
 <table align="center">
   <tr>
+  
+  ![팀원 이미지](./images/super_middle_highlight.png)
+
+  </tr>
+  <tr>
     <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/USER_ID" width="100"><br/>
-      <b>이상우</b><br/>
-      Backend
-    </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/USER_ID" width="100"><br/>
       <b>최경민</b><br/>
-      Frontend
     </td>
     <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/USER_ID" width="100"><br/>
       <b>강설</b><br/>
-      Frontend
     </td>
-        <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/USER_ID" width="100"><br/>
+    <td align="center">
       <b>김원중</b><br/>
-      Frontend
     </td>
-        <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/USER_ID" width="100"><br/>
+    <td align="center">
+      <b>이상우</b><br/>
+    </td>
+    <td align="center">
       <b>김광호</b><br/>
-      Frontend
     </td>
   </tr>
 </table>
@@ -165,90 +160,41 @@
 
 ## 🦉 SQL
 
-<br />
 
-✅ **DDL**  
+* 로그인 성공
 
-[DDL SQL 파일](./sql/picket_erd_schema.sql)
+  ![로그인 성공](./images/login_success.png)
 
-✅ **DML**  
+* 로그인 실패
 
-[DML SQL 파일](./dml.sql)
+  ![로그인 실패](./images/login_fail.png)
 
-<br />
 
-</details>
+* 카드 결제기능
 
-<details>
-<summary>사용자</summary>
-<br />
+  ![카드 결제기능](./images/card_info_add.png)
 
-로그인 성공
-<br /><br />
+* 리뷰 등록
 
-![로그인 성공](./images/login_success.png)
+  ![리뷰 등록](./images/review_add.png)
 
-<br />
+* QnA 등록
+  ![QnA 등록](./images/QnA_add.png)
 
-로그인 실패
-<br /><br />
+* 장소 등록
+  ![place 등록](./images/place_add.png)
 
-![로그인 실패](./images/login_fail.png)
 
-</details>
-<br />
+* 특정 상품 조회
+  ![상품 검색](/images/product_search.png)
 
-</details>
+* 전체 상품 목록 조회
+  ![전체 상품 조회](/images/all_products.png)
 
-<details>
-<summary>카드결제 기능</summary>
-<br />
+* 티켓 생성
 
-카드 결제기능
-<br /><br />
+  ![티켓 구매](./images/ticket_create.png)
 
-![카드 결제기능](./images/card_info_add.png)
+* 티켓 조회 및 결제 내역 확인
 
-<br />
-
-</details>
-
-<br />
-
-</details>
-
-<details>
-<summary>리뷰 및 문의 기능</summary>
-<br />
-
-리뷰 등록
-<br /><br />
-
-![리뷰 등록](./images/review_add.png)
-
-<br />
-
-QnA 등록
-<br /><br />
-
-![QnA 등록](./images/QnA_add.png)
-
-</details>
-<br />
-
-</details>
-
-<details>
-<summary>상품 등록</summary>
-<br />
-
-place 등록
-<br /><br />
-
-![place 등록](./images/place_add.png)
-
-<br />
-ticket price 등록
-<br /><br />
-![ticket price 등록](./images/image11.png)
-</details>
+  ![티켓 조회](./images/ticket_buy_query_result.png)
