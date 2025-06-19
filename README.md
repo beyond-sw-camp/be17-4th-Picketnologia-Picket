@@ -1,7 +1,8 @@
 
 
 <h3 align="center">2팀 - Picketnologia</h3>
-![Picket 로고](./images/logo.png)
+<img src="https://github.com/be17-1st-Picketnologia-Picket/raw/main/images/logo.png" width="200"/>
+
 
 <br /><br />
   
