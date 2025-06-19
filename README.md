@@ -198,8 +198,6 @@
 </details>
 <br />
 
-<br />
-
 </details>
 
 <details>
@@ -216,5 +214,25 @@
 </details>
 <br />
 
+</details>
+
+<details>
+<summary>리뷰 및 문의 기능</summary>
+<br />
+
+리뷰 등록
+<br /><br />
+
+![리뷰 등록](./images/review_add.png)
+
+<br />
+
+QnA 등록
+<br /><br />
+
+![QnA 등록](./images/QnA_add.png)
+
+</details>
+<br />
 
 
