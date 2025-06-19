@@ -179,16 +179,20 @@
   ![리뷰 등록](./images/review_add.png)
 
 * QnA 등록
+  
   ![QnA 등록](./images/QnA_add.png)
 
 * 장소 등록
+  
   ![place 등록](./images/place_add.png)
 
 
 * 특정 상품 조회
+  
   ![상품 검색](/images/product_search.png)
 
 * 전체 상품 목록 조회
+
   ![전체 상품 조회](/images/all_products.png)
 
 * 티켓 생성
