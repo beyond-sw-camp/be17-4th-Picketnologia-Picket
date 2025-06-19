@@ -4,6 +4,7 @@
 
 <p align="center">
   <img src="images/logo.png" width="400" alt="Picket 로고" />
+  
 <h3 align="center">2팀 - Picketnologia</h3>
 
 <br /><br />
@@ -90,8 +91,10 @@
 
 ## 🕺 ERD
 [ERD 다이어그램](./docs/requirement-spec.md)
+
 <p align="center">
-  <img src="images/Picket_ERD.png" width="400" alt="Picket 로고" />
+  <img src="images/Picket_ERD.png" width="400" alt="ERDDiagram" />
+  
 <br /><br />
 
 ## 💃 시스템 아키텍처
