@@ -51,7 +51,8 @@
 ![Redis](https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 <br /><br />
-
+##🖥️ 시스템 아키텍쳐
+![아키텍쳐](https://github.com/beyond-sw-camp/be17-4th-Picketnologia-Picket/blob/main/images/picket%20CI_CD.png)
 ## 🎫 CI/CD 파이프라인 흐름
 
 ### ⚙️ 자동 빌드 및 테스트
