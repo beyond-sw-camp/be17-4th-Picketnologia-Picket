@@ -37,6 +37,17 @@
 
 ## 👩‍🎤 기술 스택  
 
+![Jenkins](https://img.shields.io/badge/JENKINS-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Vue.js](https://img.shields.io/badge/VUE.JS-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SPRING_BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MARIADB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+
 <!-- 1행 -->
 ![VMware](https://img.shields.io/badge/VMWARE-575757?style=for-the-badge&logo=vmware&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/UBUNTU-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
@@ -89,19 +100,18 @@ Blue/Green 방식을 사용하면 장애 발생 시 즉시 전환이 가능하�
 
 ## 🎬 CI/CD 시나리오
 1. 개발자가 GitHub에 코드 푸시
-      ↓
+      
 2. Jenkins가 자동으로 GitHub 코드 감지
-      ↓
+      
 3. Jenkins가 Docker 이미지 빌드
-      ↓
+      
 4. Jenkins가 이미지 DockerHub에 푸시
-      ↓
+      
 5. Jenkins가 Kubernetes에 배포 명령 (kubectl apply)
-      ↓
+      
 6. Kubernetes가 최신 컨테이너로 서비스 교체
 
-=>
-코드를 GitHub에 올리면 Jenkins가 자동으로 Docker 이미지로 만들고, Kubernetes가 서비스에 반영
+// 7. 코드를 GitHub에 올리면 Jenkins가 자동으로 Docker 이미지로 만들고, Kubernetes가 서비스에 반영
 
 ## 📽️ CI/CD 배포 결과
 카나리 & 블루그린(동적 화면 GIF)
