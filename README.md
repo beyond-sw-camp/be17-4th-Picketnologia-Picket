@@ -202,3 +202,4 @@
 * 티켓 조회 및 결제 내역 확인
 
   ![티켓 조회](./images/ticket_buy_query_result.png)
+"# be17-4th-Picketnologia-Picket" 
