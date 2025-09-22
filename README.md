@@ -11,7 +11,7 @@
 <table align="center">
   <tr>
   
-  ![팀원 이미지](./docs/super_middle_highlight.png)
+  ![팀원 이미지](./doc/super_middle_highlight.png)
 
   </tr>
   <tr>
