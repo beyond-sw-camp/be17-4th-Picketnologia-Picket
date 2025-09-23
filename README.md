@@ -59,6 +59,9 @@
 ### 백엔드 블루/그린 배포
 ![아키텍쳐](https://github.com/beyond-sw-camp/be17-4th-Picketnologia-Picket/blob/main/doc/BlueGreen%20CICD%20V2.gif)
 
+### 무중단 배포
+![아키텍쳐](https://github.com/beyond-sw-camp/be17-4th-Picketnologia-Picket/blob/main/doc/%EB%AC%B4%EC%A4%91%EB%8B%A8%EB%B0%B0%ED%8F%AC.gif)
+
 ## 🎬 CI/CD 시나리오
 1. 개발자가 GitHub에 코드 푸시
    - 개발자가 GitHub에 push
