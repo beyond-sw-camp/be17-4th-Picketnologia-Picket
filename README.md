@@ -53,6 +53,11 @@
 <br /><br />
 ##🖥️ 시스템 아키텍쳐
 ![아키텍쳐](https://github.com/beyond-sw-camp/be17-4th-Picketnologia-Picket/blob/main/doc/picket%20CI_CD.png)
+
+## 📽️ CI/CD 배포 결과
+카나리 & 블루그린(동적 화면 GIF)
+"# be17-4th-Picketnologia-Picket" 
+
 ## 🎫 CI/CD 파이프라인 흐름
 
 ### ⚙️ 자동 빌드 및 테스트
@@ -105,6 +110,4 @@ UI가 아니라 API 응답 중심이라 버전 차이도 사용자에게 거의 
       - Back: Blue/Green Service 전환
 // 7. 코드를 GitHub에 올리면 Jenkins가 자동으로 Docker 이미지로 만들고, Kubernetes가 서비스에 반영
 
-## 📽️ CI/CD 배포 결과
-카나리 & 블루그린(동적 화면 GIF)
-"# be17-4th-Picketnologia-Picket" 
+
