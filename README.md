@@ -52,7 +52,7 @@
 
 <br /><br />
 ##🖥️ 시스템 아키텍쳐
-![아키텍쳐](https://github.com/beyond-sw-camp/be17-4th-Picketnologia-Picket/blob/main/doc/picket%20CI_CD%20%EC%88%98%EC%A0%95.png)
+![아키텍쳐](https://github.com/beyond-sw-camp/be17-4th-Picketnologia-Picket/blob/main/doc/picket%20CI_CD.png)
 
 ## 📽️ CI/CD 배포 결과
 카나리 & 블루그린(동적 화면 GIF)
