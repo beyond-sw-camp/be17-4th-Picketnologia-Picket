@@ -1,6 +1,7 @@
 architecture: "standalone"
 
 auth:
+  database: "picket"
   rootPassword: "qwer1234"
 
 passwordUpdateJob:
