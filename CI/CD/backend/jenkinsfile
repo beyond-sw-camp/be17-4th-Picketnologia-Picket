@@ -1,0 +1,77 @@
+pipeline {
+    agent any
+
+    environment {
+        IMAGE_NAME = 'sagnwoo/picket-back'
+        IMAGE_TAG = "latest"
+        KUBE_CONFIG_ID = 'kube-config'
+    }
+
+    stages {
+        stage('Git Clone') {
+            steps{
+                echo "Cloneing Repository"
+                git branch: 'dev', url: 'https://github.com/beyond-sw-camp/be17-3rd-Picketnologia-Picket'
+            }
+        }
+        stage('Gradle Build') {
+            steps{
+                echo "Add Permission"
+                sh 'chmod +x gradlew'
+
+                echo "Build"
+                sh './gradlew bootJar'
+            }
+        }
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    docker.build("${IMAGE_NAME}:${IMAGE_TAG}")
+                }
+            }
+        }
+        stage('Push to Registry') {
+            steps {
+                script {
+                    withDockerRegistry([credentialsId: 'docker-hub-picket-back']) {
+                        docker.image("${IMAGE_NAME}:${IMAGE_TAG}").push()
+                    }
+                }
+            }
+        }
+        stage('Deploy to Kubernetes') {
+            steps {
+                script {
+                    sh 'pwd'
+                    withCredentials([file(credentialsId: 'kube-config', variable: 'KUBECONFIG_FILE')]) {
+                        sh '''
+                            export KUBECONFIG=$KUBECONFIG_FILE
+
+                            # 현재 서비스가 가리키는 배포 확인
+                            CURRENT=$(kubectl get svc picket-backend-service -n picket -o jsonpath='{.spec.selector.version}')
+                            if [ "$CURRENT" = "blue" ]; then
+                                NEW="green"
+                            else
+                                NEW="blue"
+                            fi
+
+                            echo "Deploying new version: $NEW"
+
+                            # 새로운 Deployment 생성/업데이트
+                            kubectl apply -f k8s/deployment-$NEW.yaml -n picket
+
+                            kubectl rollout status deployment picket-backend-deployment-$NEW -n picket
+
+                            # 서비스가 새 Deployment를 가리키도록 업데이트
+                            kubectl patch svc picket-backend-service -n picket -p '{"spec":{"selector":{"version":"'"$NEW"'"}}}'
+
+                            echo "Scaling Out Deployment version: $CURRENT" 
+                            kubectl scale deployment picket-backend-deployment-$CURRENT -n picket --replicas=0
+                            '''
+                    }
+                }
+            }
+            
+        }
+    }
+}

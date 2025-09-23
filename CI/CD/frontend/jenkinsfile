@@ -1,0 +1,62 @@
+pipeline {
+    agent any
+
+    environment {
+        IMAGE_NAME = 'sagnwoo/picket-front'
+        IMAGE_TAG = "${BUILD_NUMBER}"
+        KUBE_CONFIG_ID = 'kube-config'
+    }
+
+    stages {
+        stage('Git Clone') {
+            steps{
+                echo "Cloneing Repository"
+                git branch: 'dev', url: 'https://github.com/beyond-sw-camp/be17-2nd-Picketnologia-Picket'
+            }
+        }
+        stage('npm Build') {
+            steps{
+                echo "Install Npm"
+                sh 'npm install'
+
+                echo "Build frontend"
+                sh 'npm run build'
+            }
+        }
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    docker.build("${IMAGE_NAME}:v${IMAGE_TAG}")
+                }
+            }
+        }
+        stage('Push to Registry') {
+            steps {
+                script {
+                    withDockerRegistry([credentialsId: 'docker-hub-picket-back']) {
+                        docker.image("${IMAGE_NAME}:v${IMAGE_TAG}").push()
+                    }
+                }
+            }
+        }
+        stage('Canary to Kubernetes') {
+            steps {
+                script {
+                    withCredentials([file(credentialsId: 'kube-config', variable: 'KUBECONFIG_FILE')]) {
+                        sh '''
+                            export KUBECONFIG=$KUBECONFIG_FILE
+
+                            echo "[1] Apply new deployment and service"
+                            export BUILD_NUMBER=${BUILD_NUMBER}
+                            envsubst < k8s/new-deployment.yml | kubectl apply -n picket -f -
+
+                            echo "[2] Apply new canary ingress with 10% weight"
+                            kubectl annotate ingress new-ingress -n picket nginx.ingress.kubernetes.io/canary-weight="10" --overwrite
+                            '''
+                    }
+                }
+            }
+            
+        }
+    }
+}
