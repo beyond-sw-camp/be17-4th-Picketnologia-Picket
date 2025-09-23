@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  default.conf: |
+    server {
+        listen 80;
+        server_name localhost;
+
+        root /usr/share/nginx/html;
+        index index.html;
+
+        # Vite SPA 라우팅 처리
+        location / {
+            try_files $uri /index.html;
+        }
+
+        # 백엔드 API 프록시 (필요 시)
+        location /api/ {
+            proxy_pass http://picket-backend-service:8080/;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
