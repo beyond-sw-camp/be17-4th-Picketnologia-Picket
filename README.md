@@ -53,6 +53,27 @@
 <br /><br />
 ##🖥️ 시스템 아키텍쳐
 ![아키텍쳐](https://github.com/beyond-sw-camp/be17-4th-Picketnologia-Picket/blob/main/doc/picket%20CI_CD.png)
+
+## 📽️ CI/CD 배포 결과
+카나리 & 블루그린(동적 화면 GIF)
+"# be17-4th-Picketnologia-Picket" 
+
+## 🎬 CI/CD 시나리오
+1. 개발자가 GitHub에 코드 푸시
+   - 개발자가 GitHub에 push
+2. Jenkins가 자동으로 GitHub 코드 감지
+      - GitHub Webhook or Jenkins SCM Polling으로 push 감지
+3. Jenkins가 Docker 이미지 빌드
+      - Jenkinsfile 기반으로 docker build 실행
+4. Jenkins가 이미지 DockerHub에 푸시
+      - withCredential()로 이미지 업로드
+5. Jenkins가 Kubernetes에 배포 명령 (kubectl apply)
+      - SSH로 클러스터에 명령 전달
+6. Kubernetes가 최신 컨테이너로 서비스 교체
+      - Front: Ingress Canary
+      - Back: Blue/Green Service 전환
+// 7. 코드를 GitHub에 올리면 Jenkins가 자동으로 Docker 이미지로 만들고, Kubernetes가 서비스에 반영
+
 ## 🎫 CI/CD 파이프라인 흐름
 
 ### ⚙️ 자동 빌드 및 테스트
@@ -89,22 +110,6 @@ UI 민감성 + 사용자 피드백 중요성 → 일부 사용자 대상 점진�
 블루/그린 방식은 기존 버전을 유지한 상태로 새 버전을 준비하고, 완전한 테스트 이후 트래픽을 전환하므로, 문제가 발생해도 즉시 원래 상태로 되돌릴 수 있습니다.  
 UI가 아니라 API 응답 중심이라 버전 차이도 사용자에게 거의 인식되지 않습니다.
 
-## 🎬 CI/CD 시나리오
-1. 개발자가 GitHub에 코드 푸시
-   - 개발자가 GitHub에 push
-2. Jenkins가 자동으로 GitHub 코드 감지
-      - GitHub Webhook or Jenkins SCM Polling으로 push 감지
-3. Jenkins가 Docker 이미지 빌드
-      - Jenkinsfile 기반으로 docker build 실행
-4. Jenkins가 이미지 DockerHub에 푸시
-      - withCredential()로 이미지 업로드
-5. Jenkins가 Kubernetes에 배포 명령 (kubectl apply)
-      - SSH로 클러스터에 명령 전달
-6. Kubernetes가 최신 컨테이너로 서비스 교체
-      - Front: Ingress Canary
-      - Back: Blue/Green Service 전환
-// 7. 코드를 GitHub에 올리면 Jenkins가 자동으로 Docker 이미지로 만들고, Kubernetes가 서비스에 반영
 
-## 📽️ CI/CD 배포 결과
-카나리 & 블루그린(동적 화면 GIF)
-"# be17-4th-Picketnologia-Picket" 
+
+
